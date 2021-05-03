@@ -16,3 +16,10 @@ QnA:
         
         
         
+ 1. Reminder creation done.
+ use "http://localhost:4500/user/createreminder" for creating reminder.(chose POST)
+        
+        
+        
+        
+        
