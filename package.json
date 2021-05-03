@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.25.1",
+    "concurrently": "^6.0.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-and-time": "^1.0.0",
+    "date-time": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "node-cron": "^3.0.0",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.6.0"
+  }
+}
