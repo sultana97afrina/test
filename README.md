@@ -21,8 +21,8 @@ QnA:
  json:{
     "name":"Abc",
     "email":"abc@gmail.com",
-    "date":"2021/5/3 12:13",
-    "description":"sending at 12:13"
+    "date":"05/03/2021 22:13",
+    "description":"sending at 22:13"
 }
 
 2. Reminder Update done.
@@ -30,8 +30,8 @@ use "http://localhost:4500/user/updatereminder/{id}" for update.{id} the id from
 json: {
     "name":"Abc",
     "email":"abc@gmail.com",
-    "date":"2021/5/3 12:25",
-    "description":"sending at 12:25"
+    "date":"05/03/2021 22:25",
+    "description":"sending at 22:25"
 }
 
 3. Reminder deletion  done.
