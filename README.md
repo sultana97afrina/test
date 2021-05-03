@@ -17,4 +17,22 @@ QnA:
         
         
  1. Reminder creation done.
- use "http://localhost:4500/user/createreminder" for creating reminder.(chose POST)
+ use "http://localhost:4500/user/createreminder" for creating reminder.(choose POST)
+ json:{
+    "name":"Abc",
+    "email":"abc@gmail.com",
+    "date":"2021/5/3 12:13",
+    "description":"sending at 12:13"
+}
+
+2. Reminder Update done.
+use "http://localhost:4500/user/updatereminder/{id}" for update.{id} the id from databse for example "608fa6c94d0c3a2704dbec5f". (choose PUT)
+json: {
+    "name":"Abc",
+    "email":"abc@gmail.com",
+    "date":"2021/5/3 12:25",
+    "description":"sending at 12:25"
+}
+
+3. Reminder deletion  done.
+use "http://localhost:4500/user/deletereminder/{id}" use the same id as update so that u can check. (choose DELETE)
